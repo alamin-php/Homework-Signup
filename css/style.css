@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F5683D;
+}
+
+.sign-in {
+	max-width: 400px;
+	width: 40%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	position: fixed;
+	background: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	box-sizing: border-box;
+	box-shadow: 3px 4px 7px 3px #555;
+}
+
+.sign-in h1{
+    color: #444444;
+    margin-top: 50px;
+}
+
+.sign-in input[type="text"], input[type="password"]{
+    width: 96%;
+    padding: 2%;
+    display: block;
+    height: 30px;
+    margin: 15px 0;
+    border: 0px solid;
+    outline: none;
+    background-color: #dddddd;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.sign-in input[type="submit"] {
+	width: 100%;
+	margin: 10px 0;
+	border: 0px solid;
+	outline: none;
+	background-color: #4690FB;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 5px;
+	color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sign-in input[type="submit"]:hover {
+	background-color: #0E58B9;
+}
+
+.sign-in a {
+    text-decoration: none;
+    color: #F5683D;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0;
+    display: block;
+}
+
+.sign-in img {
+	max-width: 100%;
+	width: 100px;
+	background: none;
+	top: -14%;
+	left: 36%;
+	position: fixed;
+}
